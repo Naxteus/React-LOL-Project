@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1d1d24;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+.cover-container{
+  display: flex;
+}
+.container {
+  display: flex;
+  align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.champions-container {
+  margin: 10px;
+  overflow-x: hidden;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+}
+.champion {
+  background-color: #0f1213;
+  color: white;
+  margin: 10px;
+  display: flex;
+  width: 180px;
+  border-radius: 10px;
+}
+.champion-info {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  text-align: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+.champion-info p {
+  display: flex;
+}
+.champion-content {
+}
+.tags p {
+  /* text-align: center; */
+}
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.champion-name {
+  text-align: center;
+}
+.champion img {
+  display: flex;
+  object-fit: cover;
+  width: 180px;
+  padding: 5px;
+}
+
+/* INPUT */
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.2rem;
+  background-color: rgb(40, 37, 37);
+  outline: none;
+  border: 1px solid rgb(200, 197, 197);
+  margin: 2rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  width: 300px;
+}
+
+input::placeholder {
+  font-size: 1rem;
+  color: rgb(222, 222, 222);
+}
+
+/*! Single Hero */
+.single-container {
+  padding: 30px;
+  width: 100%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+
+}
+.single-image  {
+  overflow: hidden;
+  width: 100%;
+  height: 25rem;
+  border-radius: 20px;
+object-fit: cover;
+}
+.single-header{
+margin-top: 2rem;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+
+}
+
+.single-header h1{
+
+  font-size: 38px;
+
+}
+.single-header h3{
+  color: rgba(255, 255, 255, 0.628);
+  font-size: 24px;
+}
+.single-header p {
+  align-items: center;
+  display: flex;
+text-align: justify;
+letter-spacing: 0.5px;
+line-height: 150%;
+font-size: 18px;
+}
+
+.single-info {
+
+
+
+}
+.keys{
+margin: 1rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 7.3rem;
+}
+.spells {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.spells-info{
+display: flex;
+flex-direction: column;
+margin: 1rem;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+}
+.spells p {
+font-size: 14px;
+font-weight: 500;
+}
+.spells img {
+  object-fit: cover;
+  width: 70px;
+}
+.single-container h2{
+  margin: 3rem 0 ;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+/* PASSIVE */
+.passive{
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.passive p {
+  text-align: justify;
+  font-size: 18px;
+}
+.passive h5{
+font-size: 18px;
+}
+/* STATS */
+.stats{
+ margin: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+.stats-info{
+  background-color: rgb(89, 99, 108);
+  border-radius: 20px;
+  padding: 10px;
+  width: 800px;
+display: flex;
+flex-direction: column;
+
+}
+.stats .partype{
+  background-color: rgb(179, 17, 17);
+}
+.stats p {
+padding: 5px;
+border-radius: 10px;
+  background-color: #1d1d24;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.stats h1{
+ text-align: center;
+ margin-bottom: 1rem;
+}
+
+/* SKINS SECTION */
+.skins-container{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 1.5rem;
+padding: 10px;
+}
+
+.skin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.skins-header{
+  text-align: center;
+  margin: 2rem;
+  display: flex;
+flex-direction: column;
+gap: 0.5rem;
+
+}
+.skins-header h1{
+  font-size: 36px;
+  letter-spacing: 0.5px;
+}
+.skins-header h4{
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: #f1fcffba;
+}
+.skin img{
+  width: 250px;
+}
+.skin h3{
+font-size: 16px;
+}
+.summoner-profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.summoner-profile img{
+width: 100px;
+}
