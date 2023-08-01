@@ -114,7 +114,7 @@ input::placeholder {
   overflow: hidden;
   width: 100%;
   height: 25rem;
-  border-radius: 20px;
+  border-radius: 20px ;
 object-fit: cover;
 }
 .single-header{
@@ -286,3 +286,15 @@ font-size: 16px;
 .summoner-profile img{
 width: 100px;
 }
+
+@media (max-width: 1261px) {
+  .single-image  {
+    overflow: hidden;
+    width: 100%;
+    height: 25rem;
+    border-radius: 20px ;
+  object-fit: cover;
+  }
+}
+
+
